@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+POST     /category                             controllers.EntityController.addCategory
+GET      /categories                           controllers.EntityController.getCategories
+GET      /getProducts/:categoryId              controllers.EntityController.getProducts(categoryId: Int)
+POST     /product                              controllers.EntityController.addProduct
+PUT      /updateProduct                        controllers.EntityController.updateProduct

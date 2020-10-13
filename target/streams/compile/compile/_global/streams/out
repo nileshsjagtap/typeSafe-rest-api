@@ -1,0 +1,59 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\client\MongoClientRepo.scala:5:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.MongoClient[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\client\MongoClientRepo.scala:10:5: not found: value MongoClient[0m
+[0m[[0m[31merror[0m] [0m[0m    MongoClient("mongodb://localhost")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\client\MongoClientRepo.scala:12:5: not found: value MongoClient[0m
+[0m[[0m[31merror[0m] [0m[0m    MongoClient([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:10:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.bson.codecs.Macros._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:11:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.model.Filters._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:6:12: object bson is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.bson.Document[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:7:12: object bson is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.bson.codecs.configuration.CodecRegistries.{fromProviders, fromRegistries}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:8:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.MongoClient.DEFAULT_CODEC_REGISTRY[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:9:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.MongoCollection[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:12:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.model.UpdateOptions[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:21:39: not found: value fromRegistries[0m
+[0m[[0m[31merror[0m] [0m[0m  private val categoryCodecRegistry = fromRegistries(fromProviders(classOf[Category]), DEFAULT_CODEC_REGISTRY)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:21:54: not found: value fromProviders[0m
+[0m[[0m[31merror[0m] [0m[0m  private val categoryCodecRegistry = fromRegistries(fromProviders(classOf[Category]), DEFAULT_CODEC_REGISTRY)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:21:88: not found: value DEFAULT_CODEC_REGISTRY[0m
+[0m[[0m[31merror[0m] [0m[0m  private val categoryCodecRegistry = fromRegistries(fromProviders(classOf[Category]), DEFAULT_CODEC_REGISTRY)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:22:38: not found: value fromRegistries[0m
+[0m[[0m[31merror[0m] [0m[0m  private val productCodecRegistry = fromRegistries(fromProviders(classOf[`Product`]), DEFAULT_CODEC_REGISTRY)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:22:53: not found: value fromProviders[0m
+[0m[[0m[31merror[0m] [0m[0m  private val productCodecRegistry = fromRegistries(fromProviders(classOf[`Product`]), DEFAULT_CODEC_REGISTRY)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:22:88: not found: value DEFAULT_CODEC_REGISTRY[0m
+[0m[[0m[31merror[0m] [0m[0m  private val productCodecRegistry = fromRegistries(fromProviders(classOf[`Product`]), DEFAULT_CODEC_REGISTRY)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:24:40: not found: type MongoCollection[0m
+[0m[[0m[31merror[0m] [0m[0m  private lazy val categoryCollection: MongoCollection[Category] = db.withCodecRegistry(categoryCodecRegistry).getCollection("categories")[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\app\repo\EntityRepo.scala:25:39: not found: type MongoCollection[0m
+[0m[[0m[31merror[0m] [0m[0m  private lazy val productCollection: MongoCollection[`Product`] = db.withCodecRegistry(productCodecRegistry).getCollection("products")[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\conf\routes:7:1: type HomeController is not a member of package controllers[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /                                   controllers.HomeController.index[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\niles\IdeaProjects\HeadyTypesafeProject\conf\routes:7:1: type HomeController is not a member of package controllers[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /                                   controllers.HomeController.index[0m
+[0m[[0m[31merror[0m] [0m[0m20 errors found[0m
